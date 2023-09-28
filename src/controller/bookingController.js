@@ -35,12 +35,12 @@ const BookingController = {
   },
   
   
-  findAllBookingById: async () => {
+  findAllBookingById: async (req, res) => {
     const bookingId = parseInt(req.params.bookingId, 10);
 
     const booking = await BookingService.findBookingById(bookingId);
 
-    if (!booking) throw new CustomError.NotFoundError(`Failed to find flight`);
+    if (!booking || booking === 0) throw new CustomError.NotFoundError(`Failed to find flight`);
 
     return res.status(StatusCodes.OK).json({
       message: "successful",

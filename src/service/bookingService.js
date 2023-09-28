@@ -40,7 +40,7 @@ const BookingService = {
   },
 
   findBookingById: async (bookingId) => {
-     // Use readData to get the userDatabase
+     // Use readData to get the bookingDatabase
      const bookingDatabase = await readData();
  
      if (!bookingDatabase.bookings) {

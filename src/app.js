@@ -4,6 +4,7 @@ dotenv.config();
 import express from "express";
 const app = express();
 
+
 //pcakeges
 import cors from "cors";
 import morgan from "morgan";
@@ -47,8 +48,11 @@ app.use(
 app.use(helmet());
 app.use(xss());
 
+
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
+
+
 
 //port
 const port = process.env.PORT || 9000;
@@ -64,3 +68,4 @@ const start = async () => {
 };
 
 start();
+

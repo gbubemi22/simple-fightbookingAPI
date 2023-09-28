@@ -11,7 +11,7 @@ import BookingController from '../controller/bookingController.js'
 router.route("/:userId").post(BookingController.confirmBooking);
 
 
-router.route("/:id").get(BookingController.findAllBookingById);
+router.route("/:bookingId").get(BookingController.findAllBookingById);
 
 
 router.route("/").get(BookingController.getAllBookings);
