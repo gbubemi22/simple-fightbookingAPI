@@ -36,5 +36,7 @@ Package.json: Project dependencies
 Package-lock.json: Dependency lock file
 
 test file::::
-load-test.yml
+load-test.yml    to run test 
+
+artillery run load-test.yml
 
