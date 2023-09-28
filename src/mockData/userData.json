@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Theodore Eyituyo",
+      "email": "test@test.com",
+      "password": "$2a$10$garrOIiyrsHTWEJYnaQRru/DUBI.EdX4ECBE3Iw0wSp8hruOQQx9e"
+    },
+    {
+      "id": 2,
+      "name": "Gbubemi Oritse",
+      "email": "test11@test.com",
+      "password": "$2a$10$PBN7d8LCn0SzeSFcjfZXSOllGDHRF1JI62G4IY4VpQ6ln2QTd1IUe"
+    }
+  ]
+}

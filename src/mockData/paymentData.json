@@ -1,0 +1,12 @@
+{
+  "payments": [
+    {
+      "id": 1,
+      "paymentStatus": "Payment Successful"
+    },
+    {
+      "id": 2,
+      "paymentStatus": "Payment Failed"
+    }
+  ]
+}

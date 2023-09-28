@@ -1,0 +1,34 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "departureCity": "Austria",
+      "destinationCity": "Lagos",
+      "date": "2023-09-28"
+    },
+    {
+      "id": 2,
+      "departureCity": "Kano",
+      "destinationCity": "Portharcut",
+      "date": "2023-09-28"
+    },
+    {
+      "id": 3,
+      "departureCity": "Austria",
+      "destinationCity": "Lagos",
+      "date": "2023-09-28"
+    },
+    {
+      "id": 4,
+      "departureCity": "London",
+      "destinationCity": "Lagos",
+      "date": "2023-09-28"
+    },
+    {
+      "id": 5,
+      "departureCity": "Iran",
+      "destinationCity": "Atalanta",
+      "date": "2023-09-28"
+    }
+  ]
+}
